@@ -1,2 +1,3 @@
 >>README.md -- This is for first commit
 >>hello_world -- first c code, printf hello world.
+>>pointer -- example code for pointer.
