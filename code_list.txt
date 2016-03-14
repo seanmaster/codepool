@@ -2,3 +2,4 @@
 >>hello_world -- first c code, printf hello world.
 >>pointer -- example code for pointer.
 >>macro -- example code for macro.
+>>compile -- example code for compile.
