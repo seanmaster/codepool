@@ -4,3 +4,5 @@
 >>macro -- example code for macro.
 >>compile -- example code for compile.
 >>base_function -- involve c base function.
+>>sort -- involve sortting example code.
+>>search -- involve search example code.
