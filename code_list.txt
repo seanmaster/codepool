@@ -6,3 +6,4 @@
 >>base_function -- involve c base function.
 >>sort -- involve sortting example code.
 >>search -- involve search example code.
+>>string -- involve string example code.
