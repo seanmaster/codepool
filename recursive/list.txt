@@ -1,0 +1,2 @@
+ex1.c -- n! example
+ex2.c -- a * b example
