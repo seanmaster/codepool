@@ -1,3 +1,4 @@
 ex1.c -- 運算子陷阱，== > &
+ex2.c -- OR原理，結果為1 2 6
 aes.c -- AES加解密
 endian.c -- Check system little/big endian.
