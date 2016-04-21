@@ -3,4 +3,8 @@ ex2.c -- OR原理，結果為1 2 6
 aes.c -- AES加解密
 endian.c -- Check system little/big endian.
 bit_count.c -- count int n, how many 1 bit.
+            -- & 判斷bit是否為1
 bit_mark.c -- mark bit_5 bit to 1 in input n.
+           -- | 強制bit為1
+bit_reverse.c -- change bit_5 0->1, 1->0
+            -- ^ 強制bit reverse
