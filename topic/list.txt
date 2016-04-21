@@ -3,3 +3,4 @@ ex2.c -- OR原理，結果為1 2 6
 aes.c -- AES加解密
 endian.c -- Check system little/big endian.
 bit_count.c -- count int n, how many 1 bit.
+bit_mark.c -- mark bit_5 bit to 1 in input n.
