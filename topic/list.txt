@@ -1,13 +1,23 @@
 ex1.c -- 運算子陷阱，== > &
+
 ex2.c -- OR原理，結果為1 2 6
+
 aes.c -- AES加解密
+
 endian.c -- Check system little/big endian.
+
 bit_count.c -- count int n, how many 1 bit.
             -- & 判斷bit是否為1
+
 bit_mark.c -- mark bit_5 bit to 1 in input n.
            -- | 強制bit為1
+
 bit_reverse.c -- change bit_5 0->1, 1->0
             -- ^ 強制bit reverse
+
 bit_not.c -- change every bit in input n.
             -- ~ 改變變數n的所有bit. 0->1, 1->0.
+
 ispow2.c -- Judge input n is pow 2.
+
+swap.c -- two swap method implement.
