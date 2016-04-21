@@ -10,4 +10,4 @@ bit_reverse.c -- change bit_5 0->1, 1->0
             -- ^ 強制bit reverse
 bit_not.c -- change every bit in input n.
             -- ~ 改變變數n的所有bit. 0->1, 1->0.
-
+ispow2.c -- Judge input n is pow 2.
