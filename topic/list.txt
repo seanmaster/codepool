@@ -8,3 +8,6 @@ bit_mark.c -- mark bit_5 bit to 1 in input n.
            -- | 強制bit為1
 bit_reverse.c -- change bit_5 0->1, 1->0
             -- ^ 強制bit reverse
+bit_not.c -- change every bit in input n.
+            -- ~ 改變變數n的所有bit. 0->1, 1->0.
+
