@@ -1,2 +1,2 @@
-1. Two_Sum
-2. Add Two Numbers
+1_Two_Sum
+2_Add Two Numbers
