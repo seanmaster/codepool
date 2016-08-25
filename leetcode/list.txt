@@ -1,3 +1,4 @@
 1_Two_Sum
 2_Add Two Numbers
 344_Reverse_String
+292_Nim_Game
