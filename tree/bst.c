@@ -128,6 +128,7 @@ void confirm()
     fgets(line,BUFSIZ,stdin);
 }
 
+// calculate the max depth
 int maxDepth(Node root)
 {
     int left, right;
