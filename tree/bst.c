@@ -141,6 +141,15 @@ int maxDepth(Node root)
     }
 }
 
+void deltree(Node root)
+{
+    if(root) {
+        deltree(root->left);
+        deltree(root->right);
+        free(root);
+    }
+}
+
 // main function
 int main(int argc, char *argv[])
 {
@@ -183,6 +192,7 @@ int main(int argc, char *argv[])
                     break;
                 case 'e':
                     printf("Bye!\n");
+                    deltree(root);
                     return 0;
                 default:
                     printf("Command not found.\n");
@@ -193,6 +203,8 @@ int main(int argc, char *argv[])
         }
 
     }
+
+    deltree(root);
 
     return 0;
 }
