@@ -1,6 +1,7 @@
 1_Two_Sum
 2_Add Two Numbers
 258_Add_Digits
+283_Move_Zeroes
 292_Nim_Game
 344_Reverse_String
 371_Sum_of_Two_Integers
