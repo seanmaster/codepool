@@ -1,5 +1,6 @@
 1_Two_Sum
 2_Add Two Numbers
+26_Remove_Duplicates_from_Sorted_Array
 27_Remove_Element
 258_Add_Digits
 283_Move_Zeroes
