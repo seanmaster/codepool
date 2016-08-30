@@ -1,5 +1,6 @@
 1_Two_Sum
 2_Add Two Numbers
+27_Remove_Element
 258_Add_Digits
 283_Move_Zeroes
 292_Nim_Game
