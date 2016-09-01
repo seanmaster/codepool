@@ -4,6 +4,7 @@
 27_Remove_Element
 66_Plus_One
 80_Remove_Duplicates_from_Sorted_ArrayII
+118_Pascal_Triangle
 258_Add_Digits
 283_Move_Zeroes
 292_Nim_Game
