@@ -125,7 +125,7 @@ void confirm()
 {
     char line[BUFSIZ+1];
     printf("Press 'Enter' to continue...");
-    fgets(line,BUFSIZ,stdin);
+    fgets(line,BUFSIZ,stdin);;
 }
 
 // calculate the max depth
