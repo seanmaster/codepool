@@ -5,6 +5,7 @@ int days;
 int get_dayofweek();
 int get_year();
 int get_month(int);
+int Is_leap_year(int);
 
 int get_dayofweek()
 {
@@ -18,7 +19,7 @@ int get_year()
     int i = 2000, leap_year;
 
     while(1){
-        leap_year = (i%4==0&&i%100!=0||i%400==0);
+        leap_year = Is_leap_year(i);
         if(leap_year==1 && days>=366){
             days=days-366;
             i++;
@@ -51,6 +52,11 @@ int get_month(int leap_year)
     return ++j;
 }
 
+int Is_leap_year(int year)
+{
+    return (year % 4 == 0 && year % 100 != 0 || year % 400 == 0);
+}
+
 int main()
 {
     int year, month, dayofweek;
@@ -62,12 +68,10 @@ int main()
 //        printf("%d\n", days);
         dayofweek = get_dayofweek();
         year = get_year();
-        leap_year = (year%4==0 && year%100!=0 || year%400==0);
+        leap_year = Is_leap_year(year);
         month = get_month(leap_year);
         printf("dayofweek:%d year:%d, month:%d\n", dayofweek, year, month);
         printf("%d-%d-%d %s\n", year, month, days, week[dayofweek]);
     }
-
-
     return 0;
 }
