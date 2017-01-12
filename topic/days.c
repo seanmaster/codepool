@@ -35,8 +35,8 @@ int get_year()
 
 int get_month(int leap_year)
 {
-    int pmonth[12] = {31,28,31,30,31,30,31,31,30,31,30,31};
-    int rmonth[12] = {31,29,31,30,31,30,31,31,30,31,30,31};
+    int pmonth[12] = {31,28,31,30,31,30,31,31,30,31,30,31};  //365 days
+    int rmonth[12] = {31,29,31,30,31,30,31,31,30,31,30,31};  //366 days
     int j = 0;
     while(1){
         if(leap_year==1 && days>=rmonth[j]){
@@ -62,8 +62,9 @@ int main()
 //        printf("%d\n", days);
         dayofweek = get_dayofweek();
         year = get_year();
-        leap_year = (year%4==0 && year%100!=0||year%400==0);
+        leap_year = (year%4==0 && year%100!=0 || year%400==0);
         month = get_month(leap_year);
+        printf("dayofweek:%d year:%d, month:%d\n", dayofweek, year, month);
         printf("%d-%d-%d %s\n", year, month, days, week[dayofweek]);
     }
 
