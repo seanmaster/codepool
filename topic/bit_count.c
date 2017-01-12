@@ -12,9 +12,15 @@ unsigned int bit_count_1(unsigned int n)
         }
     }
 #else //shift input n ont bit.
+    /*
     for(; n; n>>=1) {
         if(n & 1)
             count++;
+    }
+    */
+    while(n){
+        n &= (n-1);
+        count++;
     }
 #endif
     
